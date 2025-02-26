@@ -1,0 +1,7 @@
+@import "tailwindcss";
+
+@theme{
+  --custom-green: #31EE50;
+  --text-custom-green: #31EE50;
+  --border-custom-green: #31EE50;
+}

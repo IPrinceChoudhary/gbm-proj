@@ -1,3280 +1,591 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./output.css" rel="stylesheet" />
+    <link rel="icon" type="image/png" href="./assets/GBM LOGO.png" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.css"
+    />
+    <title>GBM</title>
     <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
+      swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border-radius: 8px;
+        overflow: hidden;
+        box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+      }
+
+      swiper-slide img {
+        width: 100%;
+        height: 100%;
+        object-fit: cover;
+        border-radius: 8px;
+      }
+
+      @media (max-width: 768px) {
+        swiper-slide {
+          height: 100px;
         }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            display: flex;
-            flex-direction: column;
-            position: relative;
+
+        swiper-slide img {
+          object-fit: cover;
         }
-        .title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 800;
-            font-size: 4.5rem;
-            letter-spacing: -1px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .subtitle {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            font-size: 1.8rem;
-            color: #f3f4f6;
-            margin-top: 1rem;
-        }
-        .accent-line {
-            height: 6px;
-            width: 100px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            margin: 1.5rem 0;
-            border-radius: 3px;
-        }
-        .tagline {
-            font-size: 1.3rem;
-            font-weight: 300;
-            max-width: 70%;
-            line-height: 1.6;
-            color: #d1d5db;
-        }
-        .decorative-element {
-            position: absolute;
-            width: 300px;
-            height: 300px;
-            border-radius: 50%;
-            background: radial-gradient(circle, rgba(74, 222, 128, 0.1) 0%, rgba(34, 197, 94, 0.05) 50%, rgba(34, 197, 94, 0) 70%);
-            z-index: 0;
-        }
+      }
     </style>
-</head>
-<body>
-    <div class="slide-container relative p-20 flex flex-col justify-center">
-        <!-- Decorative elements -->
-        <div class="decorative-element" style="top: -100px; right: -100px;"></div>
-        <div class="decorative-element" style="bottom: -150px; left: -150px;"></div>
-        
-        <!-- Content -->
-        <div class="z-10">
-            <div class="flex items-center mb-3">
-                <i class="fas fa-chart-line text-green-400 text-3xl mr-4"></i>
-                <p class="uppercase tracking-wider text-gray-400 font-medium">Marketing Proposal</p>
-            </div>
-            
-            <h1 class="title">GREEN BACKS MEDIA</h1>
-            <div class="accent-line"></div>
-            <h2 class="subtitle">Global Social Media Marketing Agency</h2>
-            
-            <p class="tagline mt-6">
-                Bridging the gap between marketing budgets and real business growth with result-oriented strategies, creative content, and cutting-edge AI tools.
-            </p>
-            
-            <div class="mt-12 flex items-center">
-                <div class="w-12 h-12 rounded-full bg-green-500 flex items-center justify-center">
-                    <i class="fas fa-bullseye text-white text-xl"></i>
-                </div>
-                <p class="ml-4 text-xl font-light italic text-gray-300">"We don't just run campaigns – we generate outcomes."</p>
-            </div>
-        </div>
-        
-        <!-- Footer -->
-        <div class="absolute bottom-10 right-20 flex items-center">
-            <div class="text-right mr-6">
-                <p class="text-gray-400">greenbacksmedia@gmail.com</p>
-                <p class="text-gray-400">+91 8076350326</p>
-            </div>
-            <div class="flex space-x-3">
-                <div class="w-10 h-10 rounded-full bg-green-600 flex items-center justify-center">
-                    <i class="fab fa-instagram text-white"></i>
-                </div>
-                <div class="w-10 h-10 rounded-full bg-green-600 flex items-center justify-center">
-                    <i class="fas fa-envelope text-white"></i>
-                </div>
-            </div>
-        </div>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - About Us</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 3rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .green-highlight {
-            color: #4ade80;
-            font-weight: 600;
-        }
-        .mission-box {
-            background: rgba(16, 24, 39, 0.7);
-            border-left: 5px solid #4ade80;
-            padding: 2rem;
-            border-radius: 0 8px 8px 0;
-            backdrop-filter: blur(5px);
-        }
-        .feature-item {
-            display: flex;
-            align-items: center;
-            margin-bottom: 1.5rem;
-        }
-        .feature-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            color: #4ade80;
-            font-size: 1.5rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-center">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -200px; right: -100px; width: 600px; height: 600px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(80px);"></div>
-        <div class="blob" style="bottom: -300px; left: -200px; width: 700px; height: 700px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">About Us</span>
-            </div>
-            
-            <h2 class="section-title mb-12">Who We Are</h2>
-            
-            <div class="grid grid-cols-2 gap-16">
-                <div>
-                    <p class="text-xl text-gray-300 leading-relaxed mb-8">
-                        <span class="green-highlight">Green Backs Media</span> is a global social media marketing agency with 
-                        <span class="green-highlight">5 years of experience</span> in creating real impact for businesses across various industries.
-                    </p>
-                    
-                    <div class="mission-box mb-8">
-                        <h3 class="text-xl font-medium mb-3">Our Mission</h3>
-                        <p class="text-gray-300">
-                            <i class="fas fa-bullseye text-green-400 mr-2"></i>
-                            To solve the issue of high marketing prices delivering low leads and minimal business impact.
-                        </p>
-                    </div>
-                    
-                    <p class="text-lg text-gray-300 leading-relaxed">
-                        At GBM, we don't just run campaigns – <span class="text-white font-semibold">we generate outcomes.</span>
-                    </p>
-                </div>
-                
-                <div>
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-chart-bar"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-lg font-medium">Result-Oriented Strategies</h4>
-                            <p class="text-gray-400">Data-driven approaches tailored for maximum ROI</p>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-paint-brush"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-lg font-medium">Creative Content</h4>
-                            <p class="text-gray-400">Engaging, scroll-stopping visuals that convert</p>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-lg font-medium">Cutting-Edge AI Tools</h4>
-                            <p class="text-gray-400">Automation and intelligence for better performance</p>
-                        </div>
-                    </div>
-                    
-                    <div class="feature-item">
-                        <div class="feature-icon">
-                            <i class="fas fa-handshake"></i>
-                        </div>
-                        <div>
-                            <h4 class="text-lg font-medium">Business Growth Focus</h4>
-                            <p class="text-gray-400">Bridging marketing budgets with real business impact</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">2 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
+  </head>
+  <body>
+    <div class="px-3 py-3 lg:px-12">
+      <header class="h-[5rem]">
+        <img src="./assets/GBM LOGO.png" alt="GBM logo" class="h-full" />
+      </header>
+      <main>
+        <section>
+          <h1
+            class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
+          >
+            Green Backs Media(GBM):
+            <br />
+            Empowering Your Digital Growth
+          </h1>
+        </section>
+        <!-- problem section  -->
+        <section class="bg-gray-100 font-sans mt-5">
+          <div class="container mx-auto p-4">
+            <!-- Heading -->
+            <h1
+              class="text-[1rem] md:text-[1.4rem] font-bold text-center text-gray-800 mb-6"
+            >
+              Are You Struggling with These Common Marketing Challenges?
+            </h1>
 
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - What We Offer</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .service-card {
-            background: rgba(16, 24, 39, 0.7);
-            border-radius: 12px;
-            padding: 1.5rem;
-            transition: all 0.3s ease;
-            border: 1px solid rgba(74, 222, 128, 0.1);
-            height: 100%;
-        }
-        .service-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 10px 25px rgba(74, 222, 128, 0.1);
-            border-color: rgba(74, 222, 128, 0.3);
-        }
-        .service-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1rem;
-            color: #4ade80;
-            font-size: 1.5rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .pill {
-            display: inline-block;
-            padding: 0.35rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.85rem;
-            font-weight: 500;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -50px; width: 450px; height: 450px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(70px);"></div>
-        <div class="blob" style="bottom: -200px; left: -100px; width: 500px; height: 500px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(80px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Services</span>
-            </div>
-            
-            <h2 class="section-title mb-8">What We Offer</h2>
-            
-            <div class="mb-10">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    We provide an all-in-one marketing solution that blends creativity, performance, and automation.
-                    Our comprehensive service stack delivers real impact for your business.
+            <!-- Grid for Challenges -->
+            <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-3">
+              <!-- Challenge 1: Low Engagement -->
+              <div
+                class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <h2
+                  class="text-[16px] font-semibold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-2"
+                >
+                  Low Engagement
+                </h2>
+                <p class="text-gray-600 text-[14px]">
+                  Your posts aren’t getting the attention they deserve.
                 </p>
-            </div>
-            
-            <div class="grid grid-cols-4 gap-6">
-                <!-- Content Creation Card -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-photo-video"></i>
-                    </div>
-                    <h3 class="text-xl font-medium text-white mb-3">Content Creation & Engagement</h3>
-                    <ul class="text-gray-300 space-y-2 mb-4">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>20 Premium Videos</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>10 Creative Posts</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>5 Engaging Stories/Day</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>10 Viral Meme Videos</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- AI-Powered Support Card -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-robot"></i>
-                    </div>
-                    <h3 class="text-xl font-medium text-white mb-3">AI-Powered Support</h3>
-                    <ul class="text-gray-300 space-y-2 mb-4">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>AI Voice Agent</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>AI Chat Agent</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>AI Model Agent</span>
-                            <span class="text-green-400 ml-1 text-xs font-medium">(Free)</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Growth Tools Card -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-chart-line"></i>
-                    </div>
-                    <h3 class="text-xl font-medium text-white mb-3">Growth Tools</h3>
-                    <ul class="text-gray-300 space-y-2 mb-4">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>Facebook & Instagram Ads</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>Influencer Collaborations</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>Instagram Community Building</span>
-                            <span class="text-green-400 ml-1 text-xs font-medium">(Free)</span>
-                        </li>
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>Instagram Monetization Guidance</span>
-                            <span class="text-green-400 ml-1 text-xs font-medium">(Free)</span>
-                        </li>
-                    </ul>
-                </div>
-                
-                <!-- Additional Perks Card -->
-                <div class="service-card">
-                    <div class="service-icon">
-                        <i class="fas fa-gift"></i>
-                    </div>
-                    <h3 class="text-xl font-medium text-white mb-3">Additional Perks</h3>
-                    <ul class="text-gray-300 space-y-2 mb-4">
-                        <li class="flex items-start">
-                            <i class="fas fa-check text-green-400 mt-1 mr-2"></i>
-                            <span>WhatsApp Marketing</span>
-                            <span class="text-green-400 ml-1 text-xs font-medium">(Free)</span>
-                        </li>
-                    </ul>
-                    
-                    <div class="mt-8">
-                        <h4 class="text-white font-medium mb-2">Perfect For:</h4>
-                        <div>
-                            <span class="pill"><i class="fas fa-building mr-1"></i> Businesses</span>
-                            <span class="pill"><i class="fas fa-user-tie mr-1"></i> Creators</span>
-                            <span class="pill"><i class="fas fa-home mr-1"></i> Real Estate</span>
-                            <span class="pill"><i class="fas fa-utensils mr-1"></i> Restaurants</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">3 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
+              </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Our Plan</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .pricing-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 20px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            overflow: hidden;
-            transition: all 0.3s ease;
-        }
-        .pricing-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .pricing-header {
-            background: rgba(74, 222, 128, 0.1);
-            padding: 2rem;
-            border-bottom: 1px solid rgba(74, 222, 128, 0.2);
-        }
-        .price {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3.5rem;
-            font-weight: 700;
-            color: #4ade80;
-            line-height: 1;
-        }
-        .currency {
-            font-size: 1.5rem;
-            font-weight: 500;
-            vertical-align: top;
-            position: relative;
-            top: 8px;
-        }
-        .per-month {
-            font-size: 1rem;
-            color: #9ca3af;
-            font-weight: 400;
-        }
-        .feature-list li {
-            margin-bottom: 1rem;
-            display: flex;
-            align-items: flex-start;
-        }
-        .feature-list i {
-            color: #4ade80;
-            margin-right: 0.75rem;
-            margin-top: 0.25rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .target-audience-item {
-            display: flex;
-            align-items: center;
-            background: rgba(74, 222, 128, 0.1);
-            padding: 1rem;
-            border-radius: 10px;
-            margin-bottom: 1rem;
-            transition: all 0.3s ease;
-        }
-        .target-audience-item:hover {
-            background: rgba(74, 222, 128, 0.2);
-            transform: translateX(5px);
-        }
-        .target-icon {
-            width: 50px;
-            height: 50px;
-            background: rgba(74, 222, 128, 0.2);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            color: #4ade80;
-            font-size: 1.25rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Pricing</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Our Plan</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    We believe in simplicity and value. That's why we offer one powerful plan that includes everything you need for your marketing success.
+              <!-- Challenge 2: Lack of Strategy -->
+              <div
+                class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <h2
+                  class="text-[16px] font-semibold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-2"
+                >
+                  Lack of Strategy
+                </h2>
+                <p class="text-gray-600 text-[14px]">
+                  Randomly posting without a plan isn’t delivering results.
                 </p>
-            </div>
-            
-            <div class="grid grid-cols-5 gap-10">
-                <!-- Pricing Card -->
-                <div class="pricing-card col-span-3">
-                    <div class="pricing-header">
-                        <h3 class="text-2xl font-semibold mb-2">All-Inclusive Marketing Package</h3>
-                        <div class="flex items-baseline">
-                            <span class="currency">₹</span>
-                            <span class="price">50,000</span>
-                            <span class="ml-2 text-lg text-gray-300">- ₹60,000</span>
-                            <span class="per-month ml-2">/ month</span>
-                        </div>
-                    </div>
-                    
-                    <div class="p-8">
-                        <h4 class="text-lg font-medium mb-4">Everything Included:</h4>
-                        <div class="grid grid-cols-2 gap-4">
-                            <ul class="feature-list">
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>20 Premium Videos</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>10 Creative Posts</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>5 Engaging Stories/Day</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>10 Viral Meme Videos</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>AI Voice Agent</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>AI Chat Agent</span>
-                                </li>
-                            </ul>
-                            <ul class="feature-list">
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Facebook & Instagram Ads</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Influencer Collaborations</span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>AI Model Agent <span class="text-green-400 text-sm">(Free)</span></span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Instagram Community Building <span class="text-green-400 text-sm">(Free)</span></span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>Instagram Monetization Guidance <span class="text-green-400 text-sm">(Free)</span></span>
-                                </li>
-                                <li>
-                                    <i class="fas fa-check-circle"></i>
-                                    <span>WhatsApp Marketing <span class="text-green-400 text-sm">(Free)</span></span>
-                                </li>
-                            </ul>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Target Audience -->
-                <div class="col-span-2">
-                    <h3 class="text-xl font-semibold mb-6">Perfect For:</h3>
-                    
-                    <div class="target-audience-item">
-                        <div class="target-icon">
-                            <i class="fas fa-building"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-medium">Businesses Looking for Growth</h4>
-                            <p class="text-sm text-gray-400">Aggressive scaling strategies tailored for businesses</p>
-                        </div>
-                    </div>
-                    
-                    <div class="target-audience-item">
-                        <div class="target-icon">
-                            <i class="fas fa-user-tie"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-medium">Creators Building Their Brand</h4>
-                            <p class="text-sm text-gray-400">Personal branding and audience development</p>
-                        </div>
-                    </div>
-                    
-                    <div class="target-audience-item">
-                        <div class="target-icon">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-medium">Real Estate Professionals</h4>
-                            <p class="text-sm text-gray-400">Property showcase and lead generation</p>
-                        </div>
-                    </div>
-                    
-                    <div class="target-audience-item">
-                        <div class="target-icon">
-                            <i class="fas fa-tshirt"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-medium">Fashion Brands</h4>
-                            <p class="text-sm text-gray-400">Trend-based content and visual storytelling</p>
-                        </div>
-                    </div>
-                    
-                    <div class="target-audience-item">
-                        <div class="target-icon">
-                            <i class="fas fa-utensils"></i>
-                        </div>
-                        <div>
-                            <h4 class="font-medium">Restaurants</h4>
-                            <p class="text-sm text-gray-400">Food promotion and customer engagement</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">4 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
+              </div>
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Case Studies & Results</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .stat-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            position: relative;
-            overflow: hidden;
-        }
-        .stat-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .stat-value {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 3.5rem;
-            font-weight: 700;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-            line-height: 1;
-        }
-        .case-study-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-        }
-        .case-study-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .case-study-icon {
-            width: 50px;
-            height: 50px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4ade80;
-            font-size: 1.5rem;
-        }
-        .chart-bar {
-            height: 20px;
-            background: #1f2937;
-            border-radius: 10px;
-            position: relative;
-            margin-bottom: 1rem;
-            overflow: hidden;
-        }
-        .chart-bar-fill {
-            position: absolute;
-            top: 0;
-            left: 0;
-            height: 100%;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            border-radius: 10px;
-            animation: fillBar 2s ease-out forwards;
-            transform-origin: left;
-            transform: scaleX(0);
-        }
-        @keyframes fillBar {
-            to { transform: scaleX(1); }
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Proven Success</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Case Studies & Results</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    We've successfully worked with clients across multiple sectors. Our strategies deliver real, measurable results that impact business growth.
+              <!-- Challenge 3: Time Constraints -->
+              <div
+                class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <h2
+                  class="text-[16px] font-semibold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-2"
+                >
+                  Time Constraints
+                </h2>
+                <p class="text-gray-600 text-[14px]">
+                  Managing your business and social media feels overwhelming.
                 </p>
-            </div>
-            
-            <!-- Key Metrics Row -->
-            <div class="grid grid-cols-4 gap-6 mb-10">
-                <!-- Engagement Metric -->
-                <div class="stat-card p-8">
-                    <div class="stat-value">3x</div>
-                    <h3 class="text-xl font-medium mt-2 mb-1">Engagement</h3>
-                    <p class="text-gray-400 text-sm">Triple the engagement on social platforms compared to previous metrics</p>
-                    <div class="absolute -right-5 -bottom-5 opacity-10">
-                        <i class="fas fa-thumbs-up text-9xl text-green-400"></i>
-                    </div>
-                </div>
-                
-                <!-- Cost Per Lead Reduction -->
-                <div class="stat-card p-8">
-                    <div class="stat-value">60-80%</div>
-                    <h3 class="text-xl font-medium mt-2 mb-1">CPL Reduction</h3>
-                    <p class="text-gray-400 text-sm">Significant decrease in cost per lead through optimized ad strategies</p>
-                    <div class="absolute -right-5 -bottom-5 opacity-10">
-                        <i class="fas fa-chart-line text-9xl text-green-400"></i>
-                    </div>
-                </div>
-                
-                <!-- Follower Growth -->
-                <div class="stat-card p-8">
-                    <div class="stat-value">10K+</div>
-                    <h3 class="text-xl font-medium mt-2 mb-1">Follower Growth</h3>
-                    <p class="text-gray-400 text-sm">Organic follower increase within just 3 months of campaign launch</p>
-                    <div class="absolute -right-5 -bottom-5 opacity-10">
-                        <i class="fas fa-users text-9xl text-green-400"></i>
-                    </div>
-                </div>
-                
-                <!-- Revenue Generation -->
-                <div class="stat-card p-8">
-                    <div class="flex items-center">
-                        <i class="fas fa-check-circle text-green-400 text-3xl mr-3"></i>
-                        <div class="text-xl font-medium">Consistent Revenue</div>
-                    </div>
-                    <p class="text-gray-400 text-sm mt-2 mb-4">Generating reliable monthly revenue via social platforms</p>
-                    <div class="chart-bar">
-                        <div class="chart-bar-fill" style="width: 90%;"></div>
-                    </div>
-                    <div class="chart-bar">
-                        <div class="chart-bar-fill" style="width: 80%;"></div>
-                    </div>
-                    <div class="chart-bar">
-                        <div class="chart-bar-fill" style="width: 95%;"></div>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Case Studies Grid -->
-            <div class="grid grid-cols-3 gap-6">
-                <!-- Fashion Brand Case Study -->
-                <div class="case-study-card p-6">
-                    <div class="flex items-center mb-4">
-                        <div class="case-study-icon mr-4">
-                            <i class="fas fa-tshirt"></i>
-                        </div>
-                        <h3 class="text-lg font-medium">Fashion Brand</h3>
-                    </div>
-                    <p class="text-gray-300 text-sm mb-4">Increased online sales by 200% through targeted content and influencer partnerships.</p>
-                    <div class="flex justify-between text-sm text-gray-400">
-                        <span>Before: 5K followers</span>
-                        <span>After: 45K followers</span>
-                    </div>
-                    <div class="h-2 bg-gray-700 rounded-full mt-2 mb-4">
-                        <div class="h-2 rounded-full bg-green-500" style="width: 90%"></div>
-                    </div>
-                    <div class="text-green-400 text-sm font-medium">Results in just 4 months</div>
-                </div>
-                
-                <!-- Restaurant Chain Case Study -->
-                <div class="case-study-card p-6">
-                    <div class="flex items-center mb-4">
-                        <div class="case-study-icon mr-4">
-                            <i class="fas fa-utensils"></i>
-                        </div>
-                        <h3 class="text-lg font-medium">Restaurant Chain</h3>
-                    </div>
-                    <p class="text-gray-300 text-sm mb-4">70% boost in reservations through viral food content and AI-powered customer interactions.</p>
-                    <div class="flex justify-between text-sm text-gray-400">
-                        <span>CPL Before: ₹450</span>
-                        <span>CPL After: ₹90</span>
-                    </div>
-                    <div class="h-2 bg-gray-700 rounded-full mt-2 mb-4">
-                        <div class="h-2 rounded-full bg-green-500" style="width: 80%"></div>
-                    </div>
-                    <div class="text-green-400 text-sm font-medium">80% reduction in ad spend</div>
-                </div>
-                
-                <!-- Real Estate Developer Case Study -->
-                <div class="case-study-card p-6">
-                    <div class="flex items-center mb-4">
-                        <div class="case-study-icon mr-4">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <h3 class="text-lg font-medium">Real Estate Developer</h3>
-                    </div>
-                    <p class="text-gray-300 text-sm mb-4">Generated 150+ qualified property leads monthly through targeted video content.</p>
-                    <div class="flex justify-between text-sm text-gray-400">
-                        <span>Previous Agency: 12 leads</span>
-                        <span>With GBM: 150+ leads</span>
-                    </div>
-                    <div class="h-2 bg-gray-700 rounded-full mt-2 mb-4">
-                        <div class="h-2 rounded-full bg-green-500" style="width: 95%"></div>
-                    </div>
-                    <div class="text-green-400 text-sm font-medium">1150% improvement in lead generation</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">5 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
+              </div>
 
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Content Creation Services</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .content-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-            overflow: hidden;
-        }
-        .content-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .content-visual {
-            height: 160px;
-            background: rgba(74, 222, 128, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            overflow: hidden;
-            position: relative;
-        }
-        .content-icon {
-            font-size: 3rem;
-            color: rgba(74, 222, 128, 0.6);
-        }
-        .benefit-badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.7rem;
-            font-weight: 500;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .animated-element {
-            position: absolute;
-            animation-duration: 3s;
-            animation-iteration-count: infinite;
-            animation-timing-function: ease-in-out;
-        }
-        @keyframes float {
-            0% { transform: translateY(0px) rotate(0deg); }
-            50% { transform: translateY(-15px) rotate(2deg); }
-            100% { transform: translateY(0px) rotate(0deg); }
-        }
-        @keyframes pulse {
-            0% { transform: scale(1); opacity: 0.8; }
-            50% { transform: scale(1.05); opacity: 1; }
-            100% { transform: scale(1); opacity: 0.8; }
-        }
-        .video-placeholder {
-            position: relative;
-            width: 80px;
-            height: 60px;
-            background: rgba(255, 255, 255, 0.1);
-            border-radius: 8px;
-            margin: 0 5px;
-        }
-        .video-placeholder::after {
-            content: '▶';
-            position: absolute;
-            top: 50%;
-            left: 50%;
-            transform: translate(-50%, -50%);
-            color: rgba(255, 255, 255, 0.6);
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Services Spotlight</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Content Creation & Engagement</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    Our premium content strategy creates a powerful digital presence that resonates with your audience and drives real business results.
+              <!-- Challenge 4: Outdated Content -->
+              <div
+                class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <h2
+                  class="text-[16px] font-semibold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-2"
+                >
+                  Outdated Content
+                </h2>
+                <p class="text-gray-600 text-[14px]">
+                  Your videos and graphics aren’t keeping up with current
+                  trends.
                 </p>
-            </div>
-            
-            <div class="grid grid-cols-2 gap-8">
-                <!-- Premium Videos -->
-                <div class="content-card">
-                    <div class="content-visual">
-                        <div class="flex">
-                            <div class="video-placeholder animated-element" style="animation: float 3s infinite ease-in-out;"></div>
-                            <div class="video-placeholder animated-element" style="animation: float 3.3s infinite ease-in-out;"></div>
-                            <div class="video-placeholder animated-element" style="animation: float 2.8s infinite ease-in-out;"></div>
-                        </div>
-                        <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold rounded-full w-10 h-10 flex items-center justify-center">
-                            20+
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 flex items-center">
-                            <i class="fas fa-video text-green-400 mr-3"></i>
-                            20 Premium Videos
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            High-quality, professionally edited videos tailored to your brand's voice and optimized for conversion. Each video is designed to address different stages of your customer journey.
-                        </p>
-                        <div class="mt-4">
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Brand Storytelling</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Product Showcases</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Customer Testimonials</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Educational Content</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Creative Posts -->
-                <div class="content-card">
-                    <div class="content-visual">
-                        <div class="grid grid-cols-3 gap-2">
-                            <div class="w-16 h-16 bg-gray-800 rounded-lg animated-element" style="animation: pulse 2s infinite ease-in-out;"></div>
-                            <div class="w-16 h-16 bg-gray-800 rounded-lg animated-element" style="animation: pulse 2.3s infinite ease-in-out;"></div>
-                            <div class="w-16 h-16 bg-gray-800 rounded-lg animated-element" style="animation: pulse 1.8s infinite ease-in-out;"></div>
-                        </div>
-                        <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold rounded-full w-10 h-10 flex items-center justify-center">
-                            10+
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 flex items-center">
-                            <i class="fas fa-images text-green-400 mr-3"></i>
-                            10 Creative Posts
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Brand-relevant, scroll-stopping posts that capture attention and drive engagement. Our designers create visually striking content that aligns with your brand identity.
-                        </p>
-                        <div class="mt-4">
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Branded Graphics</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Carousel Posts</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Promotional Content</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Engagement Boosters</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Engaging Stories -->
-                <div class="content-card">
-                    <div class="content-visual">
-                        <div class="h-full flex items-center justify-center">
-                            <div class="w-16 h-28 bg-gray-800 rounded-lg border-2 border-gray-700 mx-2 relative">
-                                <div class="absolute top-1 left-1 right-1 h-1 bg-gray-600 rounded-full"></div>
-                            </div>
-                            <div class="w-16 h-28 bg-gray-800 rounded-lg border-2 border-gray-700 mx-2 relative animated-element" style="animation: float 2.5s infinite ease-in-out;">
-                                <div class="absolute top-1 left-1 right-1 h-1 bg-gray-600 rounded-full"></div>
-                            </div>
-                            <div class="w-16 h-28 bg-gray-800 rounded-lg border-2 border-gray-700 mx-2 relative">
-                                <div class="absolute top-1 left-1 right-1 h-1 bg-gray-600 rounded-full"></div>
-                            </div>
-                        </div>
-                        <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold rounded-full w-10 h-10 flex items-center justify-center">
-                            5/day
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 flex items-center">
-                            <i class="fas fa-history text-green-400 mr-3"></i>
-                            5 Engaging Stories/Day
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Daily story uploads to maximize visibility and maintain top-of-mind awareness. Our team creates a mix of interactive and informative content to keep your audience engaged.
-                        </p>
-                        <div class="mt-4">
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Behind-the-Scenes</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Polls & Questions</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Product Highlights</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Daily Updates</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <!-- Viral Meme Videos -->
-                <div class="content-card">
-                    <div class="content-visual">
-                        <div class="animated-element" style="animation: pulse 2s infinite ease-in-out;">
-                            <i class="fas fa-fire content-icon"></i>
-                        </div>
-                        <div class="absolute top-4 right-4 bg-green-500 text-white text-xs font-bold rounded-full w-10 h-10 flex items-center justify-center">
-                            10+
-                        </div>
-                    </div>
-                    <div class="p-6">
-                        <h3 class="text-xl font-semibold mb-2 flex items-center">
-                            <i class="fas fa-viruses text-green-400 mr-3"></i>
-                            10 Viral Meme Videos
-                        </h3>
-                        <p class="text-gray-300 mb-4">
-                            Trend-based content for organic reach and relatability. We create memes that resonate with your audience while subtly promoting your brand, increasing shareability and engagement.
-                        </p>
-                        <div class="mt-4">
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Trending Topics</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Humor-Based Content</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Brand Integration</span>
-                            <span class="benefit-badge"><i class="fas fa-check mr-1"></i> Shareable Formats</span>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">6 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
+              </div>
 
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - AI-Powered Support</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .ai-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-        .ai-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .ai-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            color: #4ade80;
-            font-size: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-        .ai-icon::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 50%;
-            background: rgba(74, 222, 128, 0.05);
-            z-index: -1;
-            animation: pulse 2s infinite;
-        }
-        @keyframes pulse {
-            0% {
-                transform: scale(1);
-                opacity: 0.7;
-            }
-            70% {
-                transform: scale(1.5);
-                opacity: 0;
-            }
-            100% {
-                transform: scale(1);
-                opacity: 0;
-            }
-        }
-        .feature-list li {
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: flex-start;
-        }
-        .feature-list i {
-            color: #4ade80;
-            margin-right: 0.75rem;
-            margin-top: 0.2rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .circuit-line {
-            position: absolute;
-            height: 2px;
-            background: rgba(74, 222, 128, 0.2);
-            z-index: 0;
-        }
-        .circuit-dot {
-            position: absolute;
-            width: 6px;
-            height: 6px;
-            border-radius: 50%;
-            background: #4ade80;
-            z-index: 1;
-        }
-        .free-tag {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            color: white;
-            padding: 0.3rem 1rem;
-            border-radius: 999px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            box-shadow: 0 4px 10px rgba(74, 222, 128, 0.3);
-        }
-        .ai-benefit-badge {
-            display: inline-block;
-            padding: 0.35rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Circuit board design elements -->
-        <div class="circuit-line" style="top: 200px; left: 300px; width: 150px; transform: rotate(45deg);"></div>
-        <div class="circuit-dot" style="top: 197px; left: 297px;"></div>
-        <div class="circuit-dot" style="top: 203px; left: 453px;"></div>
-        
-        <div class="circuit-line" style="top: 350px; right: 200px; width: 100px;"></div>
-        <div class="circuit-dot" style="top: 350px; right: 200px;"></div>
-        <div class="circuit-dot" style="top: 350px; right: 100px;"></div>
-        
-        <div class="circuit-line" style="bottom: 150px; left: 200px; width: 80px; transform: rotate(-30deg);"></div>
-        <div class="circuit-dot" style="bottom: 150px; left: 200px;"></div>
-        <div class="circuit-dot" style="bottom: 174px; left: 269px;"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Services Spotlight</span>
-            </div>
-            
-            <h2 class="section-title mb-8">AI-Powered Support</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    Leverage cutting-edge artificial intelligence to automate customer interactions, enhance engagement, and scale your marketing efforts without increasing overhead.
+              <!-- Challenge 5: Missed Opportunities -->
+              <div
+                class="bg-white p-4 rounded-lg shadow-lg hover:shadow-xl transition-shadow"
+              >
+                <h2
+                  class="text-[16px] font-semibold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-2"
+                >
+                  Missed Opportunities
+                </h2>
+                <p class="text-gray-600 text-[14px]">
+                  You’re unsure how to use ads or collaborate with influencers
+                  effectively.
                 </p>
+              </div>
             </div>
-            
-            <div class="grid grid-cols-3 gap-8">
-                <!-- AI Voice Agent -->
-                <div class="ai-card p-8">
-                    <div class="ai-icon">
-                        <i class="fas fa-microphone-alt"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">AI Voice Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        A 24/7 intelligent voice assistant that can handle customer inquiries, collect leads, and provide information about your products or services.
-                    </p>
-                    <ul class="feature-list text-gray-300">
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Natural conversation flow</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Custom voice and personality</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Lead qualification and capture</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Integration with CRM systems</span>
-                        </li>
-                    </ul>
-                    <div class="mt-6">
-                        <span class="ai-benefit-badge">24/7 Availability</span>
-                        <span class="ai-benefit-badge">Scalable Solution</span>
-                    </div>
-                </div>
-                
-                <!-- AI Chat Agent -->
-                <div class="ai-card p-8">
-                    <div class="ai-icon">
-                        <i class="fas fa-comment-dots"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">AI Chat Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Smart chatbot technology that provides instant responses to website visitors, helping to answer questions, guide purchases, and capture leads.
-                    </p>
-                    <ul class="feature-list text-gray-300">
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Contextual understanding</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Multi-platform integration</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Conversion optimization</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Customer data collection</span>
-                        </li>
-                    </ul>
-                    <div class="mt-6">
-                        <span class="ai-benefit-badge">Instant Responses</span>
-                        <span class="ai-benefit-badge">Higher Conversion</span>
-                    </div>
-                </div>
-                
-                <!-- AI Model Agent -->
-                <div class="ai-card p-8">
-                    <div class="free-tag">Free</div>
-                    <div class="ai-icon">
-                        <i class="fas fa-user-tie"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">AI Model Agent</h3>
-                    <p class="text-gray-300 mb-6">
-                        Enhance your brand's digital presence with a virtual brand face that can represent your company across various marketing materials.
-                    </p>
-                    <ul class="feature-list text-gray-300">
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Customized to match brand identity</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Consistent brand representation</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Cost-effective alternative to photoshoots</span>
-                        </li>
-                        <li>
-                            <i class="fas fa-check-circle"></i>
-                            <span>Usable across all marketing channels</span>
-                        </li>
-                    </ul>
-                    <div class="mt-6">
-                        <span class="ai-benefit-badge">Brand Consistency</span>
-                        <span class="ai-benefit-badge">Cost Saving</span>
-                    </div>
-                </div>
+          </div>
+        </section>
+        <!-- solution section  -->
+        <section class="mt-12">
+          <div>
+            <h2
+              class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
+            >
+              We’ve Got the Solution!
+            </h2>
+            <h4 class="text-gray-600 text-[14px] lg:text-[16px] mt-4">
+              At Green Backs Media (GBM), we specialize in tackling these
+              problems and turning your social media presence into a powerful
+              marketing tool. With over 2 years of experience, we’ve helped
+              numerous creators and business owners succeed online
+            </h4>
+          </div>
+
+          <div
+            class="p-4 my-3 mx-auto lg:h-[30rem] flex gap-3 justify-evenly"
+          >
+            <!-- Videos Container -->
+            <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+              <!-- Responsive Local Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1oCU7dhLBL87rUx67z1Oh1NB0NA2gEBD6/preview"
+                allow="autoplay"
+                allowfullscreen
+                class="w-full h-full"
+              ></iframe>
             </div>
-            
-            <div class="mt-12 text-center">
-                <div class="inline-block border border-green-500 rounded-full px-8 py-3 text-green-400 bg-opacity-10 bg-green-900">
-                    <i class="fas fa-lightbulb mr-2"></i>
-                    <span class="font-medium">All AI agents seamlessly work together for a comprehensive customer experience</span>
-                </div>
+            <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+              <!-- Responsive Local Video -->
+              <iframe
+                src="https://drive.google.com/file/d/1PyyzmO3fhsuBzwTgGqZB7NzhbQnU2h9O/preview"
+                allow="autoplay"
+                allowfullscreen
+                class="w-full h-full"
+              ></iframe>
             </div>
+            <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+              <!-- Responsive Local Video -->
+              <iframe
+                src="https://drive.google.com/file/d/184LuOqDxfyiuL1qiZPgYpASV-k9SYy8G/preview"
+                allow="autoplay"
+                allowfullscreen
+                class="w-full h-full"
+              ></iframe>
+            </div>
+          </div>
+        </section>
+      </main>
+      <!-- ai section  -->
+      <section class="mt-12">
+        <div>
+          <h2
+            class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
+          >
+            AI Videos
+          </h2>
+          <h4 class="text-gray-600 text-[14px] lg:text-[16px] mt-4">
+            From intelligent automation to personalized AI solutions, our services help streamline operations, boost efficiency, and drive innovation. Whether it's customer support, workflow automation, or data-driven decision-making, our AI agents are designed to work seamlessly for your needs.Stay ahead in the AI revolution—watch now and experience the future of intelligent automation!
+          </h4>
         </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">7 / 12</span>
+
+        <div
+          class="p-4 my-3 mx-auto lg:h-[30rem] flex gap-3 justify-evenly"
+        >
+          <!-- Videos Container -->
+          <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+            <!-- Responsive Local Video -->
+            <iframe
+              src="https://drive.google.com/file/d/1_HnQ4xDJ_YecPEVuAGj-Eu1NiTN2sAt0/preview"
+              allow="autoplay"
+              allowfullscreen
+              class="w-full h-full"
+            ></iframe>
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+            <!-- Responsive Local Video -->
+            <iframe
+              src="https://drive.google.com/file/d/1Mt-PdwlmTIGjbARDrCRkAwk37bnwr8Kf/preview"
+              allow="autoplay"
+              allowfullscreen
+              class="w-full h-full"
+            ></iframe>
+          </div>
+          <div class="overflow-hidden rounded-lg shadow-lg w-full h-full">
+            <!-- Responsive Local Video -->
+            <iframe
+              src="https://drive.google.com/file/d/1NQP9xQ9y2sYkj1puyX-0GnfAg2SP6Gp9/preview"
+              allow="autoplay"
+              allowfullscreen
+              class="w-full h-full"
+            ></iframe>
+          </div>
         </div>
+      </section>
+      <!-- Pricing Section -->
+      <section class="py-16 bg-white text-black">
+        <div class="container mx-auto px-4">
+          <!-- Heading -->
+          <h2
+            class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
+          >
+            Choose Your Plan
+          </h2>
+
+          <!-- Pricing Cards Grid -->
+          <div
+            class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-5"
+          >
+            <!-- Trial Package -->
+            <div
+              class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
+            >
+              <h3
+                class="text-lg font-bold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-1"
+              >
+                Trial Package:
+              </h3>
+              <p class="text-gray-600 mb-4">Perfect for Testing the Waters</p>
+              <p class="text-2xl font-bold mb-4">₹5,000</p>
+              <ul class="space-y-2 mb-6">
+                <li>2 professional videos</li>
+                <li>3 engaging posts</li>
+              </ul>
+              <button
+                class="absolute bottom-[2rem] w-[15rem] bg-(--custom-green) text-white py-2 rounded-lg hover:bg-opacity-90 transition"
+              >
+                Get Started
+              </button>
+            </div>
+
+            <!-- Basic Growth Package -->
+            <div
+              class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
+            >
+              <h3
+                class="text-lg font-bold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-1"
+              >
+                Basic Growth Package:
+              </h3>
+              <p class="text-gray-600 mb-4">Scale Your Reach</p>
+              <p class="text-2xl font-bold mb-4">₹12,500</p>
+              <ul class="space-y-2 mb-6">
+                <li>7 high-quality videos</li>
+                <li>5 engaging posts</li>
+                <li>3 stories to keep your audience hooked</li>
+                <li>Social Media Management</li>
+                <li>Keyword & Hashtag Research</li>
+                <li>Target Audience Analysis</li>
+              </ul>
+              <button
+                class="absolute bottom-[2rem] w-[15rem] bg-(--custom-green) text-white py-2 rounded-lg hover:bg-opacity-90 transition"
+              >
+                Get Started
+              </button>
+            </div>
+
+            <!-- Premium Performance Package -->
+            <div
+              class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
+            >
+              <h3
+                class="text-lg font-bold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-1"
+              >
+                Premium Performance Package:
+              </h3>
+              <p class="text-gray-600 mb-4">Maximize Your Impact</p>
+              <p class="text-2xl font-bold mb-4">₹20,000</p>
+              <ul class="space-y-2 mb-6">
+                <li>12 professional videos</li>
+                <li>10 visually stunning posts</li>
+                <li>4 captivating stories</li>
+                <li>10 viral meme videos</li>
+                <li>Social Media Management</li>
+                <li>Keyword & Hashtag Research</li>
+                <li>Target Audience Analysis</li>
+              </ul>
+              <button
+                class="absolute bottom-[2rem] w-[15rem] bg-(--custom-green) text-white py-2 rounded-lg hover:bg-opacity-90 transition"
+              >
+                Get Started
+              </button>
+            </div>
+
+            <!-- Ultimate Success Package -->
+            <div
+              class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
+            >
+              <h3
+                class="text-lg font-bold underline underline-offset-4 decoration-[#31EE50] text-gray-800 mb-1"
+              >
+                Ultimate Success Package:
+              </h3>
+              <p class="text-gray-600 mb-4">Dominate Your Niche</p>
+              <p class="text-2xl font-bold mb-4">₹60,000</p>
+              <ul class="space-y-2 mb-20">
+                <li>20 premium videos</li>
+                <li>10 creative posts</li>
+                <li>5 engaging stories</li>
+                <li>10 viral meme videos</li>
+                <li>AI Clone & AI Agent for automation</li>
+                <li>Facebook & Instagram Ads</li>
+                <li>Influencer Collaborations</li>
+                <li>Instagram Community Building</li>
+                <li>Instagram Monetization Guidance</li>
+                <li>WhatsApp Marketing</li>
+              </ul>
+              <button
+                class="absolute bottom-[2rem] w-[15rem] bg-(--custom-green) text-white py-2 rounded-lg hover:bg-opacity-90 transition"
+              >
+                Get Started
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+      <!-- testimonial section -->
+      <section>
+        <h2
+          class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
+        >
+          Testimonials
+        </h2>
+        <div class="mt-5">
+          <!-- our clients -->
+          <div class="mb-10">
+            <h3
+              class="font-sans font-bold text-[1.3rem] md:text-[1.75rem] text-center text-[#3b3b3b] mb-8 underline underline-offset-4 decoration-[#31EE50]"
+            >
+              Our Clients
+            </h3>
+            <div class="relative">
+              <swiper-container
+                class="mySwiper mb-10"
+                pagination="true"
+                pagination-clickable="true"
+                slides-per-view="3"
+                space-between="30"
+                free-mode="true"
+              >
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/theinsurancehubofficial?igsh=MXEyNHNxOWppa2dvcA=="
+                    ><img
+                      src="./assets/instaAndYt/insta1.PNG"
+                      class="w-full h-full"
+                      alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/nikitas_closet00?igsh=MWFydTc3eXBsZWwxbw=="
+                    ><img src="./assets/instaAndYt/insta3.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/oromahacademy?igsh=bHVxdHFuZG1qenNi"
+                    ><img src="./assets/instaAndYt/insta4.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/mindwaysstudyabroad?igsh=cnUwam00cXN5ejNx"
+                    ><img src="./assets/instaAndYt/insta5.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/khaaki.in?igsh=YjhnNHR4OXJ6OHlm"
+                    ><img src="./assets/instaAndYt/insta6.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/eyemantra_hospital?igsh=MWh5YjVkdWtlYzQ1cA=="
+                    ><img src="./assets/instaAndYt/insta7.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/aman.narula.1?igsh=cDR4Y3l1Z24wOTRm"
+                    ><img src="./assets/instaAndYt/insta8.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/vinkushauto?igsh=bmRhNGZvNDZoc3p6"
+                    ><img src="./assets/instaAndYt/insta2.PNG" alt="" /></a
+                ></swiper-slide>
+              </swiper-container>
+              <swiper-container
+                class="mySwiper"
+                pagination="true"
+                pagination-clickable="true"
+                slides-per-view="3"
+                space-between="30"
+                free-mode="true"
+              >
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/giant_migration_qatar?igsh=MWkxNXk5YnJiMDNrag=="
+                    ><img src="./assets/instaAndYt/insta9.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/giant_migration_india?igsh=MWxxYjBrajRxaGRoMA=="
+                    ><img src="./assets/instaAndYt/insta10.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/giant_migration_dubai?igsh=MWV4bHczbjEwOTN6ZA=="
+                    ><img src="./assets/instaAndYt/insta11.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/aa.kancha?igsh=YXNyOGNoaDZ6MGht"
+                    ><img src="./assets/instaAndYt/insta12.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://www.instagram.com/petvetclinic_official?igsh=MXF6NGZsenpqdXRqZg%3D%3D"
+                    ><img src="./assets/instaAndYt/insta13.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a href="https://youtube.com/@eye.mantra?si=Cw3-6AxEdBqN_7x9"
+                    ><img src="./assets/instaAndYt/yt1.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://youtube.com/@theaussiedesi?si=yiyh1LUBQiAi8u_J"
+                    ><img src="./assets/instaAndYt/yt2.PNG" alt="" /></a
+                ></swiper-slide>
+                <swiper-slide class=""
+                  ><a
+                    href="https://youtube.com/@diabetesmantra?si=TFdJzjsMfl7d62nm"
+                    ><img src="./assets/instaAndYt/yt3.PNG" alt="" /></a
+                ></swiper-slide>
+              </swiper-container>
+            </div>
+          </div>
+          <!-- our results -->
+          <div>
+            <h3
+              class="font-sans font-bold text-[1.3rem] md:text-[1.75rem] text-center text-[#3b3b3b] mb-5 underline underline-offset-4 decoration-[#31EE50]"
+            >
+              Our Results
+            </h3>
+            <div class="relative">
+              <swiper-container
+                class="mySwiper mb-10 w-full h-full"
+                pagination="true"
+                pagination-clickable="true"
+                slides-per-view="3"
+                space-between="30"
+                free-mode="true"
+              >
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-26 at 10.11.04 AM.jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-26 at 10.11.47 AM.jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.44 PM (2).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.44 PM.jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.45 PM (1).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.45 PM (2).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.45 PM.jpeg"
+                    alt=""
+                /></swiper-slide>
+              </swiper-container>
+              <swiper-container
+                class="mySwiper"
+                pagination="true"
+                pagination-clickable="true"
+                slides-per-view="3"
+                space-between="30"
+                free-mode="true"
+              >
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.46 PM (1).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.46 PM (2).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.46 PM.jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-26 at 10.05.50 AM.jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.47 PM (2).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-17 at 3.11.48 PM (1).jpeg"
+                    alt=""
+                /></swiper-slide>
+                <swiper-slide class="h-[200px]"
+                  ><img
+                    src="./assets/results/WhatsApp Image 2025-02-26 at 10.08.27 AM.jpeg"
+                    alt=""
+                /></swiper-slide>
+              </swiper-container>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Growth Tools</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .growth-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-        .growth-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .growth-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 20%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            color: #4ade80;
-            font-size: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-        .benefit-item {
-            margin-bottom: 0.75rem;
-            display: flex;
-            align-items: flex-start;
-        }
-        .benefit-item i {
-            color: #4ade80;
-            margin-right: 0.75rem;
-            margin-top: 0.2rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .free-tag {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            color: white;
-            padding: 0.3rem 1rem;
-            border-radius: 999px;
-            font-size: 0.75rem;
-            font-weight: 600;
-            letter-spacing: 0.5px;
-            text-transform: uppercase;
-            box-shadow: 0 4px 10px rgba(74, 222, 128, 0.3);
-        }
-        .benefit-badge {
-            display: inline-block;
-            padding: 0.35rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.8rem;
-            font-weight: 500;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .stat-bubble {
-            position: absolute;
-            background: rgba(74, 222, 128, 0.15);
-            border: 1px solid rgba(74, 222, 128, 0.3);
-            color: white;
-            border-radius: 999px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            padding: 0.5rem 1rem;
-            display: flex;
-            align-items: center;
-        }
-        .ads-visual {
-            position: relative;
-            width: 100%;
-            height: 80px;
-            background: rgba(255, 255, 255, 0.05);
-            border-radius: 8px;
-            margin-top: 1rem;
-            overflow: hidden;
-        }
-        .ads-bar {
-            position: absolute;
-            bottom: 0;
-            left: 0;
-            height: 6px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 3px;
-            animation: growBar 4s infinite alternate;
-        }
-        @keyframes growBar {
-            from { width: 30%; }
-            to { width: 90%; }
-        }
-        .influencer-avatar {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: #374151;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 1.2rem;
-            color: #9ca3af;
-            margin-right: 1rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Stats bubbles -->
-        <div class="stat-bubble" style="top: 150px; right: 180px;">
-            <i class="fas fa-chart-line text-green-400 mr-2"></i> 60-80% Lower CPL
-        </div>
-        <div class="stat-bubble" style="top: 200px; right: 280px;">
-            <i class="fas fa-users text-green-400 mr-2"></i> 10K+ Followers Growth
-        </div>
-        <div class="stat-bubble" style="bottom: 180px; left: 160px;">
-            <i class="fas fa-comments text-green-400 mr-2"></i> 3x Higher Engagement
-        </div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Services Spotlight</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Growth Tools</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    Our strategic toolkit for expanding your audience, driving engagement, and converting followers into customers through targeted, performance-driven approaches.
-                </p>
-            </div>
-            
-            <div class="grid grid-cols-2 gap-8">
-                <!-- Facebook & Instagram Ads -->
-                <div class="growth-card p-8">
-                    <div class="growth-icon">
-                        <i class="fas fa-ad"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">Facebook & Instagram Ads</h3>
-                    <p class="text-gray-300 mb-5">
-                        Smart ad strategies that bring in high-quality leads at low cost. Our data-driven approach ensures your ad spend generates maximum ROI.
-                    </p>
-                    
-                    <div class="ads-visual">
-                        <div class="absolute top-2 left-3 text-xs text-gray-400">Campaign Performance</div>
-                        <div class="ads-bar"></div>
-                    </div>
-                    
-                    <div class="mt-6">
-                        <div class="benefit-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Precise audience targeting and segmentation</span>
-                        </div>
-                        <div class="benefit-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>A/B testing to optimize performance</span>
-                        </div>
-                        <div class="benefit-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Custom conversion tracking and analytics</span>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-4">
-                        <span class="benefit-badge">60-80% Lower CPL</span>
-                        <span class="benefit-badge">High ROI</span>
-                    </div>
-                </div>
-                
-                <!-- Influencer Collaborations -->
-                <div class="growth-card p-8">
-                    <div class="growth-icon">
-                        <i class="fas fa-star"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">Influencer Collaborations</h3>
-                    <p class="text-gray-300 mb-5">
-                        Targeted influencer marketing for expanded reach and enhanced trust. We connect your brand with relevant voices that resonate with your audience.
-                    </p>
-                    
-                    <div class="flex items-center mt-4 mb-6">
-                        <div class="influencer-avatar">
-                            <i class="fas fa-user"></i>
-                        </div>
-                        <div class="w-32 h-2 bg-gray-700 rounded-full">
-                            <div class="h-full w-3/4 bg-green-500 rounded-full"></div>
-                        </div>
-                        <div class="ml-3 text-sm text-gray-400">70K-80K followers</div>
-                    </div>
-                    
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Strategic influencer selection and vetting</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Authentic content collaboration</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Performance tracking and ROI measurement</span>
-                    </div>
-                    
-                    <div class="mt-4">
-                        <span class="benefit-badge">Authentic Reach</span>
-                        <span class="benefit-badge">Trust Building</span>
-                    </div>
-                </div>
-                
-                <!-- Instagram Community Building -->
-                <div class="growth-card p-8">
-                    <div class="free-tag">Free</div>
-                    <div class="growth-icon">
-                        <i class="fab fa-instagram"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">Instagram Community Building</h3>
-                    <p class="text-gray-300 mb-5">
-                        Organic follower growth and real engagement strategies that build a loyal, interactive community around your brand.
-                    </p>
-                    
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Strategic hashtag and content planning</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Engagement-focused posting schedule</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Community management and interaction</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Growth tracking and optimization</span>
-                    </div>
-                    
-                    <div class="mt-4">
-                        <span class="benefit-badge">10K+ Followers</span>
-                        <span class="benefit-badge">Active Community</span>
-                    </div>
-                </div>
-                
-                <!-- Instagram Monetization -->
-                <div class="growth-card p-8">
-                    <div class="free-tag">Free</div>
-                    <div class="growth-icon">
-                        <i class="fas fa-coins"></i>
-                    </div>
-                    <h3 class="text-2xl font-semibold mb-4">Instagram Monetization Guidance</h3>
-                    <p class="text-gray-300 mb-5">
-                        Expert strategies to help creators and businesses unlock Instagram's earning potential through multiple revenue streams.
-                    </p>
-                    
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Revenue stream diversification strategies</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Brand partnership optimization</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>In-app monetization features activation</span>
-                    </div>
-                    <div class="benefit-item">
-                        <i class="fas fa-check-circle"></i>
-                        <span>Content strategy for maximizing earnings</span>
-                    </div>
-                    
-                    <div class="mt-4">
-                        <span class="benefit-badge">Multiple Revenue Streams</span>
-                        <span class="benefit-badge">Sustainable Growth</span>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">8 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Additional Perks</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .advantage-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-        .advantage-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .advantage-icon {
-            width: 80px;
-            height: 80px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 16px;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 1.5rem;
-            color: #4ade80;
-            font-size: 2rem;
-            position: relative;
-            z-index: 1;
-        }
-        .advantage-icon::after {
-            content: '';
-            position: absolute;
-            width: 100%;
-            height: 100%;
-            border-radius: 16px;
-            border: 1px dashed rgba(74, 222, 128, 0.3);
-            animation: rotate 10s linear infinite;
-        }
-        @keyframes rotate {
-            from { transform: rotate(0deg); }
-            to { transform: rotate(360deg); }
-        }
-        .feature-item {
-            display: flex;
-            align-items: flex-start;
-            margin-bottom: 0.75rem;
-        }
-        .feature-item i {
-            color: #4ade80;
-            margin-right: 0.75rem;
-            margin-top: 0.2rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .free-badge {
-            display: inline-flex;
-            align-items: center;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            color: white;
-            padding: 0.2rem 0.75rem;
-            border-radius: 999px;
-            font-size: 0.7rem;
-            font-weight: 600;
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-            margin-left: 0.5rem;
-            box-shadow: 0 2px 5px rgba(74, 222, 128, 0.3);
-        }
-        .angle-top {
-            position: absolute;
-            top: 0;
-            left: 0;
-            width: 0;
-            height: 0;
-            border-style: solid;
-            border-width: 50px 50px 0 0;
-            border-color: rgba(74, 222, 128, 0.3) transparent transparent transparent;
-        }
-        .vs-badge {
-            display: inline-block;
-            padding: 0.35rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.8rem;
-            font-weight: 600;
-            margin-right: 0.5rem;
-        }
-        .whatsapp-message {
-            background: #075e54;
-            border-radius: 10px 10px 10px 0;
-            padding: 0.75rem;
-            font-size: 0.9rem;
-            margin-bottom: 0.75rem;
-            position: relative;
-            width: fit-content;
-            max-width: 80%;
-        }
-        .whatsapp-message.sent {
-            background: #128c7e;
-            border-radius: 10px 10px 0 10px;
-            margin-left: auto;
-        }
-        .message-time {
-            font-size: 0.65rem;
-            color: rgba(255, 255, 255, 0.7);
-            text-align: right;
-            margin-top: 0.25rem;
-        }
-        .chat-container {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            padding: 1rem;
-            margin-top: 2rem;
-        }
-        .vs-comparison {
-            display: grid;
-            grid-template-columns: 1fr auto 1fr;
-            gap: 1.5rem;
-            margin-top: 1rem;
-        }
-        .vs-circle {
-            width: 40px;
-            height: 40px;
-            border-radius: 50%;
-            background: linear-gradient(90deg, #4ade80, #22c55e);
-            color: white;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-weight: 600;
-            align-self: center;
-        }
-        .vs-item {
-            padding: 0.75rem;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 8px;
-            margin-bottom: 0.75rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Our Advantages</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Why Choose GBM</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    We don't just promise results – we deliver them consistently. Here's what sets Green Backs Media apart from traditional marketing agencies.
-                </p>
-            </div>
-            
-            <div class="grid grid-cols-2 gap-8">
-                <div class="grid grid-rows-2 gap-8">
-                    <!-- AI-Powered Edge -->
-                    <div class="advantage-card p-8">
-                        <div class="advantage-icon">
-                            <i class="fas fa-robot"></i>
-                        </div>
-                        <h3 class="text-2xl font-semibold mb-4">AI-Powered Edge</h3>
-                        <p class="text-gray-300 mb-4">
-                            Leverage cutting-edge AI technology to automate and scale your marketing efforts.
-                        </p>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>24/7 customer interaction with AI voice agents</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Instant response systems that convert visitors to leads</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>AI model agents for consistent brand imagery <span class="free-badge">Free</span></span>
-                        </div>
-                    </div>
-                    
-                    <!-- Premium Content -->
-                    <div class="advantage-card p-8">
-                        <div class="advantage-icon">
-                            <i class="fas fa-palette"></i>
-                        </div>
-                        <h3 class="text-2xl font-semibold mb-4">Premium Content</h3>
-                        <p class="text-gray-300 mb-4">
-                            High-quality, custom-crafted content that captures attention and drives engagement.
-                        </p>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Professional video content optimized for conversion</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Viral memes that boost organic reach</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Daily stories that keep your brand top-of-mind</span>
-                        </div>
-                    </div>
-                </div>
-                
-                <div class="grid grid-rows-2 gap-8">
-                    <!-- Low Cost, High Impact -->
-                    <div class="advantage-card p-8">
-                        <div class="advantage-icon">
-                            <i class="fas fa-chart-line"></i>
-                        </div>
-                        <h3 class="text-2xl font-semibold mb-4">Low Cost, High Impact</h3>
-                        <p class="text-gray-300 mb-4">
-                            Maximize your marketing ROI with our cost-effective, results-driven approach.
-                        </p>
-                        
-                        <div class="vs-comparison">
-                            <div>
-                                <div class="vs-item">
-                                    <div class="font-medium">Traditional Agencies</div>
-                                    <div class="text-red-400 text-sm">High CPL (₹300-400+)</div>
-                                </div>
-                                <div class="vs-item">
-                                    <div class="font-medium">Generic Content</div>
-                                    <div class="text-red-400 text-sm">Low Engagement</div>
-                                </div>
-                            </div>
-                            <div class="vs-circle">VS</div>
-                            <div>
-                                <div class="vs-item">
-                                    <div class="font-medium">Green Backs Media</div>
-                                    <div class="text-green-400 text-sm">Low CPL (₹80-120)</div>
-                                </div>
-                                <div class="vs-item">
-                                    <div class="font-medium">Custom Content</div>
-                                    <div class="text-green-400 text-sm">3x Engagement</div>
-                                </div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <!-- Free Add-Ons -->
-                    <div class="advantage-card p-8">
-                        <div class="angle-top"></div>
-                        <div class="advantage-icon">
-                            <i class="fas fa-gift"></i>
-                        </div>
-                        <h3 class="text-2xl font-semibold mb-4">Free Add-Ons <span class="text-green-400 text-lg">(Included)</span></h3>
-                        <p class="text-gray-300 mb-4">
-                            Value-added services that maximize your marketing investment.
-                        </p>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Instagram Community Building</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>Instagram Monetization Guidance</span>
-                        </div>
-                        <div class="feature-item">
-                            <i class="fas fa-check-circle"></i>
-                            <span>WhatsApp Marketing</span>
-                        </div>
-                        
-                        <div class="chat-container mt-3">
-                            <div class="whatsapp-message">
-                                Hi! Thanks for your interest in our services.
-                                <div class="message-time">12:42 PM</div>
-                            </div>
-                            <div class="whatsapp-message sent">
-                                I'd like to learn more about your marketing packages.
-                                <div class="message-time">12:43 PM</div>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">9 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Client Testimonials</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .testimonial-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            height: 100%;
-            position: relative;
-            overflow: hidden;
-        }
-        .testimonial-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .client-logo {
-            width: 60px;
-            height: 60px;
-            border-radius: 12px;
-            background: rgba(74, 222, 128, 0.1);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4ade80;
-            font-size: 1.5rem;
-            position: relative;
-            z-index: 1;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-        }
-        .quote-icon {
-            position: absolute;
-            color: rgba(74, 222, 128, 0.1);
-            font-size: 4rem;
-        }
-        .quote-start {
-            top: 10px;
-            left: 10px;
-        }
-        .quote-end {
-            bottom: 10px;
-            right: 10px;
-        }
-        .badge {
-            display: inline-block;
-            padding: 0.25rem 0.75rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 9999px;
-            font-size: 0.75rem;
-            font-weight: 500;
-            margin-right: 0.5rem;
-            margin-bottom: 0.5rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .ratings {
-            display: flex;
-            color: #4ade80;
-            margin-bottom: 0.5rem;
-        }
-        .stat {
-            font-family: 'Montserrat', sans-serif;
-            font-size: 1.5rem;
-            font-weight: 700;
-            color: #4ade80;
-        }
-        .client-avatar {
-            width: 50px;
-            height: 50px;
-            border-radius: 50%;
-            background: #374151;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-right: 1rem;
-            color: #9ca3af;
-            font-size: 1.5rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Hear From Our Clients</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Client Testimonials</h2>
-            
-            <div class="mb-8">
-                <p class="text-xl text-gray-300 leading-relaxed">
-                    Don't just take our word for it. Here's what our clients have to say about their experience working with Green Backs Media.
-                </p>
-            </div>
-            
-            <div class="grid grid-cols-3 gap-8">
-                <!-- Testimonial 1 - Fashion Boutique -->
-                <div class="testimonial-card p-8">
-                    <div class="quote-icon quote-start">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    
-                    <div class="flex items-center mb-6">
-                        <div class="client-logo mr-4">
-                            <i class="fas fa-tshirt"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg">Trendy Fashion</h3>
-                            <p class="text-gray-400 text-sm">Fashion Boutique</p>
-                        </div>
-                    </div>
-                    
-                    <div class="ratings">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    
-                    <p class="text-gray-300 text-base italic mb-6">
-                        "We've tried multiple marketing agencies before, but GBM delivered real results. Our online sales have tripled, and our social media presence is stronger than ever."
-                    </p>
-                    
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center">
-                            <div class="client-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div>
-                                <div class="font-medium">Sarah Johnson</div>
-                                <div class="text-gray-400 text-sm">Marketing Director</div>
-                            </div>
-                        </div>
-                        
-                        <div class="text-right">
-                            <div class="stat">3x</div>
-                            <div class="text-sm text-gray-400">Sales Increase</div>
-                        </div>
-                    </div>
-                    
-                    <div class="quote-icon quote-end">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                </div>
-                
-                <!-- Testimonial 2 - Restaurant -->
-                <div class="testimonial-card p-8">
-                    <div class="quote-icon quote-start">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    
-                    <div class="flex items-center mb-6">
-                        <div class="client-logo mr-4">
-                            <i class="fas fa-utensils"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg">Spice Heaven</h3>
-                            <p class="text-gray-400 text-sm">Restaurant Chain</p>
-                        </div>
-                    </div>
-                    
-                    <div class="ratings">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star-half-alt"></i>
-                    </div>
-                    
-                    <p class="text-gray-300 text-base italic mb-6">
-                        "The AI voice agent has been a game-changer for our reservation system. We're spending 70% less on ads while getting more customers through the door."
-                    </p>
-                    
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center">
-                            <div class="client-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div>
-                                <div class="font-medium">Raj Patel</div>
-                                <div class="text-gray-400 text-sm">Owner</div>
-                            </div>
-                        </div>
-                        
-                        <div class="text-right">
-                            <div class="stat">70%</div>
-                            <div class="text-sm text-gray-400">Ad Spend Reduction</div>
-                        </div>
-                    </div>
-                    
-                    <div class="quote-icon quote-end">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                </div>
-                
-                <!-- Testimonial 3 - Real Estate -->
-                <div class="testimonial-card p-8">
-                    <div class="quote-icon quote-start">
-                        <i class="fas fa-quote-left"></i>
-                    </div>
-                    
-                    <div class="flex items-center mb-6">
-                        <div class="client-logo mr-4">
-                            <i class="fas fa-home"></i>
-                        </div>
-                        <div>
-                            <h3 class="font-semibold text-lg">Premium Properties</h3>
-                            <p class="text-gray-400 text-sm">Real Estate Developer</p>
-                        </div>
-                    </div>
-                    
-                    <div class="ratings">
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                        <i class="fas fa-star"></i>
-                    </div>
-                    
-                    <p class="text-gray-300 text-base italic mb-6">
-                        "GBM's video content helped us showcase our properties in a whole new light. We're now getting over 150 qualified leads monthly, compared to just 12 with our previous agency."
-                    </p>
-                    
-                    <div class="flex justify-between items-center">
-                        <div class="flex items-center">
-                            <div class="client-avatar">
-                                <i class="fas fa-user"></i>
-                            </div>
-                            <div>
-                                <div class="font-medium">Michael Chen</div>
-                                <div class="text-gray-400 text-sm">Sales Manager</div>
-                            </div>
-                        </div>
-                        
-                        <div class="text-right">
-                            <div class="stat">12x</div>
-                            <div class="text-sm text-gray-400">Lead Generation</div>
-                        </div>
-                    </div>
-                    
-                    <div class="quote-icon quote-end">
-                        <i class="fas fa-quote-right"></i>
-                    </div>
-                </div>
-            </div>
-            
-            <!-- Testimonial Highlights -->
-            <div class="grid grid-cols-4 gap-6 mt-10">
-                <div class="bg-opacity-10 bg-green-500 rounded-xl p-4 text-center">
-                    <div class="text-2xl font-bold text-green-400 mb-1">94%</div>
-                    <div class="text-gray-300 text-sm">Client Retention Rate</div>
-                </div>
-                
-                <div class="bg-opacity-10 bg-green-500 rounded-xl p-4 text-center">
-                    <div class="text-2xl font-bold text-green-400 mb-1">45+</div>
-                    <div class="text-gray-300 text-sm">Active Clients</div>
-                </div>
-                
-                <div class="bg-opacity-10 bg-green-500 rounded-xl p-4 text-center">
-                    <div class="text-2xl font-bold text-green-400 mb-1">60-80%</div>
-                    <div class="text-gray-300 text-sm">Avg. CPL Reduction</div>
-                </div>
-                
-                <div class="bg-opacity-10 bg-green-500 rounded-xl p-4 text-center">
-                    <div class="text-2xl font-bold text-green-400 mb-1">5</div>
-                    <div class="text-gray-300 text-sm">Industries Served</div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">10 / 12</span>
-        </div>
-    </div>
-</body>
-</html>
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Frequently Asked Questions</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 2.8rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .faq-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            overflow: hidden;
-            margin-bottom: 1rem;
-        }
-        .faq-card:hover {
-            border-color: rgba(74, 222, 128, 0.5);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
-        }
-        .faq-question {
-            padding: 1.25rem;
-            cursor: pointer;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            user-select: none;
-        }
-        .faq-answer {
-            padding: 0 1.25rem 1.25rem;
-            color: #d1d5db;
-            line-height: 1.6;
-        }
-        .faq-icon {
-            width: 32px;
-            height: 32px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4ade80;
-            font-size: 0.8rem;
-            transition: all 0.2s ease;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .info-box {
-            background: rgba(74, 222, 128, 0.1);
-            border-left: 4px solid #4ade80;
-            padding: 1rem 1.5rem;
-            border-radius: 0 8px 8px 0;
-            margin-top: 2rem;
-        }
-        .highlight {
-            color: #4ade80;
-            font-weight: 500;
-        }
-        .grid-faq {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 1.5rem;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Got Questions?</span>
-            </div>
-            
-            <h2 class="section-title mb-8">Frequently Asked Questions</h2>
-            
-            <div class="grid-faq">
-                <!-- FAQ Item 1 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">How long does it take to see results?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        While some clients see engagement improvements within the first week, significant growth in followers and leads typically begins within 30 days. For full revenue impact, we recommend a minimum 3-month commitment to allow strategies to reach their full potential.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item 2 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">What industries do you work with?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        We've successfully worked with clients in real estate, fashion, restaurants, hospitality, fitness, e-commerce, personal brands, and service-based businesses. Our strategies are adaptable to virtually any industry that can benefit from social media marketing.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item 3 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">How do your AI agents work?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        Our AI voice, chat, and model agents are custom-trained on your business information and brand voice. They integrate with your website, CRM, and social platforms to automate customer interactions, answer queries, and capture leads 24/7. They can be fully implemented within 2 weeks of onboarding.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item 4 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">What's included in the free add-ons?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        Our free add-ons include Instagram community building (organic growth strategies), Instagram monetization guidance (revenue stream development), WhatsApp marketing (direct customer engagement), and AI model agents (virtual brand representation). These are valued at ₹25,000 but included at no extra cost.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item 5 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">Do you require long-term contracts?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        While we recommend a minimum 3-month commitment for optimal results, we offer flexible month-to-month arrangements after the initial period. Our 94% client retention rate speaks to the value we provide, with most clients choosing to continue long-term.
-                    </div>
-                </div>
-                
-                <!-- FAQ Item 6 -->
-                <div class="faq-card">
-                    <div class="faq-question">
-                        <h3 class="font-medium text-lg">How is pricing determined?</h3>
-                        <div class="faq-icon">
-                            <i class="fas fa-plus"></i>
-                        </div>
-                    </div>
-                    <div class="faq-answer">
-                        Our pricing ranges from ₹50,000 to ₹60,000 per month, depending on your specific needs and business size. This all-inclusive package covers content creation, AI tools, growth strategies, and all the free add-ons. Custom packages are available for enterprises with specialized requirements.
-                    </div>
-                </div>
-            </div>
-            
-            <div class="info-box">
-                <div class="flex items-center">
-                    <i class="fas fa-lightbulb text-green-400 text-xl mr-3"></i>
-                    <h4 class="text-lg font-medium">Have more questions?</h4>
-                </div>
-                <p class="mt-2">
-                    We're happy to schedule a free consultation to discuss your specific needs and how our services can be tailored to your business. Contact us at <span class="highlight">greenbacksmedia@gmail.com</span> or call <span class="highlight">+91 8076350326</span> to learn more.
-                </p>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">11 / 12</span>
-        </div>
-    </div>
-    
-    <script>
-        document.addEventListener('DOMContentLoaded', function() {
-            const faqQuestions = document.querySelectorAll('.faq-question');
-            
-            faqQuestions.forEach(question => {
-                question.addEventListener('click', function() {
-                    const answer = this.nextElementSibling;
-                    const icon = this.querySelector('.faq-icon i');
-                    
-                    // Toggle answer visibility
-                    if (answer.style.display === 'none' || answer.style.display === '') {
-                        answer.style.display = 'block';
-                        icon.classList.remove('fa-plus');
-                        icon.classList.add('fa-minus');
-                    } else {
-                        answer.style.display = 'none';
-                        icon.classList.remove('fa-minus');
-                        icon.classList.add('fa-plus');
-                    }
-                });
-            });
-        });
-    </script>
-</body>
-</html>
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Green Backs Media Proposal - Let's Connect</title>
-    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-    <link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free@6.0.0/css/all.min.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700;800&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
-    <style>
-        body {
-            font-family: 'Poppins', sans-serif;
-            margin: 0;
-            padding: 0;
-            background-color: #f8f9fa;
-            display: flex;
-            justify-content: center;
-            align-items: center;
-            min-height: 100vh;
-        }
-        .slide-container {
-            width: 1280px;
-            min-height: 720px;
-            background: linear-gradient(135deg, #1a232e 0%, #0f172a 100%);
-            color: white;
-            overflow: hidden;
-            box-shadow: 0 10px 30px rgba(0,0,0,0.3);
-            position: relative;
-        }
-        .section-title {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            font-size: 3.5rem;
-            color: white;
-            position: relative;
-            display: inline-block;
-        }
-        .section-title::after {
-            content: '';
-            position: absolute;
-            bottom: -10px;
-            left: 0;
-            width: 80px;
-            height: 4px;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            border-radius: 2px;
-        }
-        .contact-card {
-            background: rgba(20, 30, 48, 0.7);
-            border-radius: 16px;
-            border: 1px solid rgba(74, 222, 128, 0.2);
-            transition: all 0.3s ease;
-            overflow: hidden;
-        }
-        .contact-card:hover {
-            transform: translateY(-5px);
-            box-shadow: 0 15px 30px rgba(0, 0, 0, 0.3);
-            border-color: rgba(74, 222, 128, 0.5);
-        }
-        .contact-icon {
-            width: 60px;
-            height: 60px;
-            background: rgba(74, 222, 128, 0.1);
-            border-radius: 50%;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            color: #4ade80;
-            font-size: 1.5rem;
-            margin-right: 1rem;
-        }
-        .contact-method {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            font-size: 1.2rem;
-            margin-bottom: 0.25rem;
-        }
-        .blob {
-            position: absolute;
-            opacity: 0.05;
-            z-index: 0;
-        }
-        .cta-button {
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            color: white;
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 600;
-            padding: 1rem 2rem;
-            border-radius: 8px;
-            display: inline-block;
-            transition: all 0.3s ease;
-            border: none;
-            cursor: pointer;
-            text-align: center;
-            font-size: 1.25rem;
-            box-shadow: 0 4px 15px rgba(74, 222, 128, 0.3);
-        }
-        .cta-button:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 8px 20px rgba(74, 222, 128, 0.4);
-        }
-        .benefit-pill {
-            display: inline-block;
-            padding: 0.5rem 1rem;
-            background: rgba(74, 222, 128, 0.15);
-            color: #4ade80;
-            border-radius: 999px;
-            font-weight: 500;
-            margin: 0.25rem;
-            text-align: center;
-        }
-        .connect-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 2rem;
-        }
-        .thank-you {
-            font-family: 'Montserrat', sans-serif;
-            font-weight: 700;
-            background: linear-gradient(90deg, #4ade80 0%, #22c55e 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            color: transparent;
-        }
-        .circle-decoration {
-            position: absolute;
-            border-radius: 50%;
-            border: 1px dashed rgba(74, 222, 128, 0.3);
-            z-index: 0;
-        }
-    </style>
-</head>
-<body>
-    <div class="slide-container p-20 flex flex-col justify-between">
-        <!-- Background decoration -->
-        <div class="blob" style="top: -150px; right: -100px; width: 550px; height: 550px; background: radial-gradient(circle, #4ade80 0%, transparent 70%); filter: blur(90px);"></div>
-        <div class="blob" style="bottom: -250px; left: -150px; width: 600px; height: 600px; background: radial-gradient(circle, #22c55e 0%, transparent 70%); filter: blur(100px);"></div>
-        
-        <!-- Circle decorations -->
-        <div class="circle-decoration" style="width: 300px; height: 300px; top: 100px; right: 150px;"></div>
-        <div class="circle-decoration" style="width: 200px; height: 200px; top: 150px; right: 200px;"></div>
-        <div class="circle-decoration" style="width: 100px; height: 100px; top: 200px; right: 250px;"></div>
-        
-        <!-- Content -->
-        <div class="z-10 relative">
-            <div class="mb-2">
-                <span class="uppercase text-green-400 tracking-wider font-semibold">Ready to Grow?</span>
-            </div>
-            
-            <h2 class="section-title mb-10">Let's Connect</h2>
-            
-            <div class="connect-grid">
-                <div>
-                    <p class="text-xl text-gray-300 leading-relaxed mb-8">
-                        Take the first step toward transforming your social media presence and driving real business growth. Contact us today to discuss how Green Backs Media can help you achieve your marketing goals.
-                    </p>
-                    
-                    <div class="flex flex-wrap mb-8">
-                        <div class="benefit-pill">
-                            <i class="fas fa-check-circle mr-1"></i> Low Cost, High Impact
-                        </div>
-                        <div class="benefit-pill">
-                            <i class="fas fa-check-circle mr-1"></i> AI-Powered Tools
-                        </div>
-                        <div class="benefit-pill">
-                            <i class="fas fa-check-circle mr-1"></i> Premium Content Creation
-                        </div>
-                        <div class="benefit-pill">
-                            <i class="fas fa-check-circle mr-1"></i> Growth-Focused Strategy
-                        </div>
-                        <div class="benefit-pill">
-                            <i class="fas fa-check-circle mr-1"></i> Free Value-Added Services
-                        </div>
-                    </div>
-                    
-                    <a href="mailto:greenbacksmedia@gmail.com" class="cta-button block w-full text-center">
-                        <i class="fas fa-paper-plane mr-2"></i> Schedule Your Free Consultation
-                    </a>
-                    
-                    <p class="text-center text-gray-400 mt-3">No obligation, just valuable insights for your business</p>
-                </div>
-                
-                <div>
-                    <div class="contact-card p-6 mb-6">
-                        <div class="flex items-center">
-                            <div class="contact-icon">
-                                <i class="fas fa-envelope"></i>
-                            </div>
-                            <div>
-                                <div class="contact-method">Email Us</div>
-                                <div class="text-gray-300">greenbacksmedia@gmail.com</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-card p-6 mb-6">
-                        <div class="flex items-center">
-                            <div class="contact-icon">
-                                <i class="fas fa-phone-alt"></i>
-                            </div>
-                            <div>
-                                <div class="contact-method">Call Us</div>
-                                <div class="text-gray-300">+91 8076350326</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="contact-card p-6">
-                        <div class="flex items-center">
-                            <div class="contact-icon">
-                                <i class="fab fa-instagram"></i>
-                            </div>
-                            <div>
-                                <div class="contact-method">Follow Us</div>
-                                <div class="text-gray-300">@greenbacksmedia_official</div>
-                            </div>
-                        </div>
-                    </div>
-                    
-                    <div class="mt-8 text-center">
-                        <h3 class="thank-you text-3xl mb-2">Thank You!</h3>
-                        <p class="text-gray-400">For considering Green Backs Media as your marketing partner</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-        <!-- Footer with slide number -->
-        <div class="absolute bottom-6 right-10">
-            <span class="text-gray-500 text-sm">12 / 12</span>
-        </div>
-    </div>
-</body>
+    <footer class="h-[8rem] w-full bg-(--custom-green) py-3 mt-10">
+      <p class="text-white text-center">+91 98912 98845</p>
+      <p class="text-white text-center">greenbacksmedia@gmail.com</p>
+      <p class="text-white text-center">greenbacksmedia_official</p>
+      <p class="text-white text-center">
+        © 2025 Green Backs Media. All rights reserved.
+      </p>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+  </body>
 </html>

@@ -239,21 +239,21 @@
         </div>
       </section>
       <!-- Pricing Section -->
-      <section class="py-16 bg-white text-black">
-        <div class="container mx-auto px-4">
+      <!-- <section class="py-16 bg-white text-black">
+        <div class="container mx-auto px-4"> -->
           <!-- Heading -->
-          <h2
+          <!-- <h2
             class="font-sans font-bold text-[1.5rem] md:text-[2rem] text-center text-[#222222]"
           >
             Choose Your Plan
-          </h2>
+          </h2> -->
 
           <!-- Pricing Cards Grid -->
-          <div
+          <!-- <div
             class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-6 mt-5"
-          >
+          > -->
             <!-- Trial Package -->
-            <div
+            <!-- <div
               class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
             >
               <h3
@@ -272,10 +272,10 @@
               >
                 Get Started
               </button>
-            </div>
+            </div> -->
 
             <!-- Basic Growth Package -->
-            <div
+            <!-- <div
               class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
             >
               <h3
@@ -298,10 +298,10 @@
               >
                 Get Started
               </button>
-            </div>
+            </div> -->
 
             <!-- Premium Performance Package -->
-            <div
+            <!-- <div
               class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
             >
               <h3
@@ -325,10 +325,10 @@
               >
                 Get Started
               </button>
-            </div>
+            </div> -->
 
             <!-- Ultimate Success Package -->
-            <div
+            <!-- <div
               class="bg-white rounded-lg shadow-lg p-6 border border-gray-200 relative"
             >
               <h3
@@ -355,7 +355,7 @@
               >
                 Get Started
               </button>
-            </div>
+            </div> -->
           </div>
         </div>
       </section>
@@ -587,5 +587,31 @@
       </p>
     </footer>
     <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-element-bundle.min.js"></script>
+    <script>
+      var vapiInstance = null;
+      const assistant = "f98f3d04-e953-4fa0-92f8-076660a35b58"; // Substitute with your assistant ID
+      const apiKey = "5a14d4de-ad84-4dd4-9e57-f8f17b3283a9"; // Substitute with your Public key from Vapi Dashboard.
+      const buttonConfig = {}; // Modify this as required
+    
+      (function (d, t) {
+        var g = document.createElement(t),
+          s = d.getElementsByTagName(t)[0];
+        g.src =
+          "https://cdn.jsdelivr.net/gh/VapiAI/html-script-tag@latest/dist/assets/index.js";
+        g.defer = true;
+        g.async = true;
+        s.parentNode.insertBefore(g, s);
+    
+        g.onload = function () {
+          vapiInstance = window.vapiSDK.run({
+            apiKey: apiKey, // mandatory
+            assistant: assistant, // mandatory
+            config: buttonConfig, // optional
+          });
+        };
+      })(document, "script");
+    
+    </script>
+    
   </body>
 </html>
